@@ -19,9 +19,8 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
 ; as per http://drupal.org/node/746524#comment-4730732 adds font styles to CKeditor
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/746524-91Drupal7-v3_drush_make.patch"
-;
-projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
-
+; Exportables and Features support for WYSIWYG 7.x as per http://drupal.org/node/624018#comment-3389060
+projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
 
 
 ;;;;;;;;;;;;;;;;;
@@ -32,10 +31,10 @@ projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.x-dev"
 
 projects[insert][subdir] = "contrib"
-projects[insert][version] = "1.1"
+;projects[insert][version] = "1.1"
 
 projects[image_resize_filter][subdir] = "contrib"
-projects[image_resize_filter][version] = "1.12"
+;projects[image_resize_filter][version] = "1.12"
 
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.4"
@@ -49,16 +48,16 @@ projects[imce_wysiwyg][subdir] = "contrib"
 ;;;;;;;;;;;;;;;
 
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "3.0"
+;projects[transliteration][version] = "3.0"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0-rc2"
+;projects[pathauto][version] = "1.0-rc2"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta6"
+;projects[token][version] = "1.0-beta6"
 
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "1.3"
+;projects[pathologic][version] = "1.3"
 
 projects[filefield_paths][subdir] = "contrib"
 
@@ -84,7 +83,7 @@ projects[ctools][subdir] = "contrib"
 ;;;;;;;;;;;;;;;
 
 projects[admin_menu][subdir] = "contrib"
-;projects[admin_menu][version] = "3.x-dev"
+projects[admin_menu][version] = "3.x-dev"
 
 projects[devel][subdir] = "contrib"
 ;projects[devel][version] = "1.2"
@@ -108,12 +107,11 @@ projects[strongarm][subdir] = "contrib"
 ; Custom Modules                                                ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
+projects[ideograph_wysiwyg][destination] = "custom"
 projects[ideograph_wysiwyg][type] = "module"
 projects[ideograph_wysiwyg][download][type] = "git"
-projects[ideograph_wysiwyg][download][url] = "git://github.com/ideograph/ideograph_wysiwyg.git"
-projects[ideograph_wysiwyg][destination] = "features"
-projects[ideograph_wysiwyg][branch] = "7.x-1.0-dev"
+projects[ideograph_wysiwyg][download][url] = "http://git.drupal.org/sandbox/Andrew_Mallis/1315584.git"
+projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
 
 
 
@@ -122,11 +120,15 @@ projects[ideograph_wysiwyg][branch] = "7.x-1.0-dev"
 ; Features                                                      ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+projects[ideograph_dev][destination] = "features"
 projects[ideograph_dev][type] = "module"
 projects[ideograph_dev][download][type] = "git"
 projects[ideograph_dev][download][url] = "git://github.com/ideograph/ideograph_dev.git"
-projects[ideograph_dev][destination] = "features"
 ;projects[ideograph_dev][branch] = "7.x-1.x-dev"
+
+;projects[ideograph_wysiwyg_users]
+
+;projects[ideograph_wysiwyg_utility]
 
 
 
