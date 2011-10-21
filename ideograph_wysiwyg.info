@@ -62,5 +62,5 @@ dependencies[] = ctools
 ;dependencies[] = ideograph_dev
 
 
-files[] = ideograph_wysiwyg.profile
+files[] = ideograph_wysiwyw.profile
 dependencies[] = 
