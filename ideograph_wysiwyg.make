@@ -1,8 +1,12 @@
-; $ drush make ideograph_wysiwyg.build will call ideograph_wysiwyg
+; make file for WYSIWYG tests
+; USAGE: copy and rename this file to ideograph_wysiwyg.make where you want to build your site and run: 
+; $ drush make ideograph_wysiwyg.make ideograph.wysiwyg
 
 core = 7.x
 api = 2
 
+projects[] = "drupal"
+;projects[drupal][version] = "7.8"
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -109,7 +113,7 @@ projects[strongarm][subdir] = "contrib"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[ideograph_wysiwyg][type] = "module"
-projects[ideograph_wysiwyg][destination] = "custom"
+projects[ideograph_wysiwyg][subdir] = "custom"
 projects[ideograph_wysiwyg][download][type] = "git"
 projects[ideograph_wysiwyg][download][url] = "http://git.drupal.org/sandbox/Andrew_Mallis/1315584.git"
 projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
@@ -122,7 +126,7 @@ projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[ideograph_dev][type] = "module"
-projects[ideograph_dev][destination] = "features"
+projects[ideograph_dev][subdir] = "features"
 ;projects[ideograph_dev][subdir] = "features"
 projects[ideograph_dev][download][type] = "git"
 projects[ideograph_dev][download][url] = "git://github.com/ideograph/ideograph_dev.git"
@@ -162,6 +166,18 @@ libraries[jquery.ui][destination] = "modules/contrib/jquery_ui"
 
 
 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Profile                                                       ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+projects[ideograph_wysiwyg][type] = "profile"
+projects[ideograph_wysiwyg][download][type] = "git"
+projects[ideograph_wysiwyg][download][url] = "git://github.com/ideograph/ideograph_wysiwyg-build.git"
+;projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
+;projects[ideograph_wysiwyg][tag] = "7.x-1.0-alpha1"
+projects[ideograph_wysiwyg][directory_name] = "ideograph_wysiwyg"
 
 
 

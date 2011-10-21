@@ -1,4 +1,4 @@
-name = Parya
+name = Ideograph WYSIWYG
 description = Install profile for WYSIWYG tests.
 version = "7.x-1.x-dev"
 core = 7.x

@@ -1,4 +1,7 @@
+
+; stub file for wysiwyg testing. build with:
 ; $ drush make ideograph_wysiwyg.build ideograph_wysiwyg
+; unfortunately this puts modules in the profile directory :(
 
 core = 7.x
 api = 2
@@ -8,7 +11,7 @@ projects[] = "drupal"
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Libraries                                                     ;
+; Profile                                                       ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
