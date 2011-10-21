@@ -6,7 +6,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function ideograph_wysiwyg_install() {
+function ideograph_wysiwyw_install() {
   
   $default_theme = variable_get('theme_default', 'bartik');
   $admin_theme = 'seven';

@@ -172,7 +172,6 @@ libraries[jquery.ui][destination] = "modules/contrib/jquery_ui"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[ideograph_wysiwyw][type] = "profile"
-projects[ideograph_wysiwyw][destination] = "."
 projects[ideograph_wysiwyw][download][type] = "git"
 projects[ideograph_wysiwyw][download][url] = "git://github.com/ideograph/ideograph_wysiwyg-build.git"
 ;projects[ideograph_wysiwyw][branch] = "7.x-1.x-dev"
