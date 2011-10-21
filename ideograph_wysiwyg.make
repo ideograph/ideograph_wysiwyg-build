@@ -11,7 +11,6 @@ projects[] = "drupal"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-
 ;;;;;;;;;;;
 ; WYSIWYG ;
 ;;;;;;;;;;;
@@ -22,6 +21,7 @@ projects[wysiwyg][version] = "2.1"
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/746524-91Drupal7-v3_drush_make.patch"
 ;
 projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
+
 
 
 ;;;;;;;;;;;;;;;;;
@@ -103,15 +103,31 @@ projects[strongarm][subdir] = "contrib"
 
 
 
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Custom Modules                                                ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+projects[ideograph_wysiwyg][type] = "module"
+projects[ideograph_wysiwyg][download][type] = "git"
+projects[ideograph_wysiwyg][download][url] = "git://github.com/ideograph/ideograph_wysiwyg.git"
+projects[ideograph_wysiwyg][destination] = "features"
+projects[ideograph_wysiwyg][branch] = "7.x-1.0-dev"
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Features                                                      ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[ideograph_dev][type] = "module"
 projects[ideograph_dev][download][type] = "git"
 projects[ideograph_dev][download][url] = "git://github.com/ideograph/ideograph_dev.git"
 projects[ideograph_dev][destination] = "features"
-projects[ideograph_dev][branch] = ""
+;projects[ideograph_dev][branch] = "7.x-1.x-dev"
+
 
 
 
@@ -121,6 +137,8 @@ projects[ideograph_dev][branch] = ""
 
 ;projects[tao][version] = "3.0-beta4"
 ;projects[rubik][version] = "4.0-beta6"
+
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -147,14 +165,13 @@ libraries[jquery.ui][destination] = "modules/contrib/jquery_ui"
 projects[ideograph_wysiwyg][type] = "progile"
 projects[ideograph_wysiwyg][download][type] = "git"
 projects[ideograph_wysiwyg][download][url] = "git://github.com/ideograph/ideograph_wysiwyg-build.git"
-;projects[ideograph_wysiwyg][branch] = ""
-;projects[ideograph_wysiwyg][tag] = ""
+;projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
+;projects[ideograph_wysiwyg][tag] = "7.x-1.0-alpha1"
 projects[ideograph_wysiwyg][directory_name] = "ideograph_wysiwyg"
 
 
 
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;   http://ideograph.biz
