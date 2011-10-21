@@ -19,8 +19,10 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
 ; as per http://drupal.org/node/746524#comment-4730732 adds font styles to CKeditor
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/746524-91Drupal7-v3_drush_make.patch"
+
 ; Exportables and Features support for WYSIWYG 7.x as per http://drupal.org/node/624018#comment-3389060
-projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
+; not working...
+; projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
 
 
 ;;;;;;;;;;;;;;;;;
@@ -122,6 +124,7 @@ projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
 
 projects[ideograph_dev][type] = "module"
 projects[ideograph_dev][destination] = "features"
+;projects[ideograph_dev][subdir] = "features"
 projects[ideograph_dev][download][type] = "git"
 projects[ideograph_dev][download][url] = "git://github.com/ideograph/ideograph_dev.git"
 ;projects[ideograph_dev][branch] = "7.x-1.x-dev"
