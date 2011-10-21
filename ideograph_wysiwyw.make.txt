@@ -116,6 +116,7 @@ projects[ideograph_wysiwyg][type] = "module"
 projects[ideograph_wysiwyg][subdir] = "custom"
 projects[ideograph_wysiwyg][download][type] = "git"
 projects[ideograph_wysiwyg][download][url] = "http://git.drupal.org/sandbox/Andrew_Mallis/1315584.git"
+;projects[ideograph_wysiwyg][version] = "1.x-dev"
 projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
 
 

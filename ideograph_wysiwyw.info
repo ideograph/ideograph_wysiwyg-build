@@ -19,20 +19,21 @@ dependencies[] = path
 dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
-dependencies[] = shortcut
-dependencies[] = toolbar
-dependencies[] = overlay
+;dependencies[] = shortcut
+;dependencies[] = toolbar
+;dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 
 
 ; Contrib Modules
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = features
-dependencies[] = features_plumber
-dependencies[] = features_override
+;dependencies[] = features_plumber
+;dependencies[] = features_override
 dependencies[] = strongarm
 dependencies[] = git_deploy
 
@@ -60,7 +61,7 @@ dependencies[] = ctools
 
 ; Custom modules
 ;dependencies[] = ideograph_dev
-
+dependencies[] = ideograph_wysiwyg
 
 files[] = ideograph_wysiwyw.profile
-dependencies[] = 
+
