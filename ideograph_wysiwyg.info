@@ -1,0 +1,66 @@
+name = Parya
+description = Install profile for WYSIWYG tests.
+version = "7.x-1.x-dev"
+core = 7.x
+project = "Ideograph"
+
+
+; Core Modules
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+
+
+; Contrib Modules
+dependencies[] = admin_menu
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = features_plumber
+dependencies[] = features_override
+dependencies[] = strongarm
+dependencies[] = git_deploy
+
+dependencies[] = wysiwyg
+dependencies[] = imageapi
+dependencies[] = insert
+dependencies[] = image_resize_filter
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
+
+dependencies[] = pathauto
+dependencies[] = transliteration
+dependencies[] = token
+dependencies[] = filefield_paths
+;dependencies[] = pathologic
+
+dependencies[] = jquery_ui
+dependencies[] = libraries
+dependencies[] = ctools
+
+
+;dependencies[] = views
+;dependencies[] = views_ui
+
+
+; Custom modules
+;dependencies[] = ideograph_dev
+
+
+files[] = ideograph_wysiwyg.profile
+dependencies[] = 
