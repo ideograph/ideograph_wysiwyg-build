@@ -107,8 +107,8 @@ projects[strongarm][subdir] = "contrib"
 ; Custom Modules                                                ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-projects[ideograph_wysiwyg][destination] = "custom"
 projects[ideograph_wysiwyg][type] = "module"
+projects[ideograph_wysiwyg][destination] = "custom"
 projects[ideograph_wysiwyg][download][type] = "git"
 projects[ideograph_wysiwyg][download][url] = "http://git.drupal.org/sandbox/Andrew_Mallis/1315584.git"
 projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
@@ -120,8 +120,8 @@ projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
 ; Features                                                      ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-projects[ideograph_dev][destination] = "features"
 projects[ideograph_dev][type] = "module"
+projects[ideograph_dev][destination] = "features"
 projects[ideograph_dev][download][type] = "git"
 projects[ideograph_dev][download][url] = "git://github.com/ideograph/ideograph_dev.git"
 ;projects[ideograph_dev][branch] = "7.x-1.x-dev"
@@ -164,7 +164,7 @@ libraries[jquery.ui][destination] = "modules/contrib/jquery_ui"
 ; Profiles                                                      ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-projects[ideograph_wysiwyg][type] = "progile"
+projects[ideograph_wysiwyg][type] = "profile"
 projects[ideograph_wysiwyg][download][type] = "git"
 projects[ideograph_wysiwyg][download][url] = "git://github.com/ideograph/ideograph_wysiwyg-build.git"
 ;projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
