@@ -1,0 +1,26 @@
+; $ drush make ideograph_wysiwyg.build ideograph_wysiwyg
+
+core = 7.x
+api = 2
+
+projects[] = "drupal"
+;projects[drupal][version] = "7.8"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Libraries                                                     ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+projects[ideograph_wysiwyg][type] = "profile"
+projects[ideograph_wysiwyg][download][type] = "git"
+projects[ideograph_wysiwyg][download][url] = "git://github.com/ideograph/ideograph_wysiwyg-build.git"
+;projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
+;projects[ideograph_wysiwyg][tag] = "7.x-1.0-alpha1"
+projects[ideograph_wysiwyg][directory_name] = "ideograph_wysiwyg"
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;   http://ideograph.biz

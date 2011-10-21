@@ -1,9 +1,8 @@
-; $ drush make ideograph_wysiwyg.make ideograph_wysiwyg  
+; $ drush make ideograph_wysiwyg.build will call ideograph_wysiwyg
 
 core = 7.x
 api = 2
-;projects[drupal][version] = "7.4"
-projects[] = "drupal"
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -163,16 +162,6 @@ libraries[jquery.ui][destination] = "modules/contrib/jquery_ui"
 
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Profiles                                                      ;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-projects[ideograph_wysiwyg][type] = "profile"
-projects[ideograph_wysiwyg][download][type] = "git"
-projects[ideograph_wysiwyg][download][url] = "git://github.com/ideograph/ideograph_wysiwyg-build.git"
-;projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
-;projects[ideograph_wysiwyg][tag] = "7.x-1.0-alpha1"
-projects[ideograph_wysiwyg][directory_name] = "ideograph_wysiwyg"
 
 
 
