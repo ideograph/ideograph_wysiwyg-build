@@ -55,7 +55,7 @@ projects[imce_wysiwyg][subdir] = "contrib"
 ;projects[imce_wysiwyg][version] = "1.0"
 
 projects[filefield_sources][subdir] = "contrib"
-;projects[filefield_sources][version] = "1.3"
+;projects[filefield_sources][version] = "1.4"
 
 
 
@@ -148,14 +148,13 @@ projects[ideograph_wysiwyg][branch] = "7.x-1.x-dev"
 
 projects[ideograph_dev][type] = "module"
 projects[ideograph_dev][subdir] = "features"
-;projects[ideograph_dev][subdir] = "features"
 projects[ideograph_dev][download][type] = "git"
 projects[ideograph_dev][download][url] = "git://github.com/ideograph/ideograph_dev.git"
 ;projects[ideograph_dev][branch] = "7.x-1.x-dev"
 
-;projects[ideograph_wysiwyg_users]
-
-;projects[ideograph_wysiwyg_utility]
+;projects[ideograph_wysiwyg_article][type] = "module"
+;projects[ideograph_wysiwyg_users][type] = "module"
+;projects[ideograph_wysiwyg_utility][type] = "module"
 
 
 
@@ -167,7 +166,9 @@ projects[ideograph_dev][download][url] = "git://github.com/ideograph/ideograph_d
 ;projects[tao][version] = "3.0-beta4"
 ;projects[rubik][version] = "4.0-beta6"
 
-
+projects[ideograph_wysiwyg_bartik][type] = "theme"
+projects[ideograph_wysiwyg_bartik][download][type] = "git"
+projects[ideograph_wysiwyg_bartik][download][url] = "git://github.com/ideograph/ideograph_wysiwyg_bartik.git"
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
