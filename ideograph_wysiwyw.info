@@ -24,7 +24,7 @@ dependencies[] = search
 ;dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
-
+dependencies[] = image
 
 ; Contrib Modules
 dependencies[] = admin_menu
@@ -35,9 +35,11 @@ dependencies[] = features
 ;dependencies[] = features_plumber
 ;dependencies[] = features_override
 dependencies[] = strongarm
-dependencies[] = git_deploy
+;dependencies[] = git_deploy
 
 dependencies[] = wysiwyg
+dependencies[] = wysiwyg_filter
+dependencies[] = better_formats
 dependencies[] = imageapi
 dependencies[] = insert
 dependencies[] = image_resize_filter
@@ -48,6 +50,7 @@ dependencies[] = pathauto
 dependencies[] = transliteration
 dependencies[] = token
 dependencies[] = filefield_paths
+dependencies[] = filefield_sources
 ;dependencies[] = pathologic
 
 dependencies[] = jquery_ui
