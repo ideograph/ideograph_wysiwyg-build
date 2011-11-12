@@ -25,7 +25,7 @@ projects[] = "drupal"
 ;;;;;;;;;;;
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.x-dev"
 ; as per http://drupal.org/node/746524#comment-4730732 adds font styles to CKeditor
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/746524-91Drupal7-v3_drush_make.patch"
 
