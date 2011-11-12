@@ -63,7 +63,7 @@ dependencies[] = ctools
 
 
 ; Custom modules
-dependencies[] = ideograph_dev
+;dependencies[] = ideograph_dev ; causes errors on install
 dependencies[] = ideograph_wysiwyg
 
 ; Features

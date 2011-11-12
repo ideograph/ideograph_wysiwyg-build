@@ -24,15 +24,11 @@ projects[] = "drupal"
 ; WYSIWYG ;
 ;;;;;;;;;;;
 
+; we need the dev version for Features exportable support
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 ; as per http://drupal.org/node/746524#comment-4730732 adds font styles to CKeditor
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/746524-91Drupal7-v3_drush_make.patch"
-
-; Exportables and Features support for WYSIWYG 7.x as per http://drupal.org/node/624018#comment-3389060
-; not working...
-; projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
-
 
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.x-dev"
@@ -131,8 +127,9 @@ projects[features_plumber][subdir] = "contrib"
 projects[features_override][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 
-projects[defaultcontent][subdir] = "contrib"
-projects[defaultcontent][version] = "1.0-alpha4"
+; this looked promising, but not yet working in my install
+;projects[defaultcontent][subdir] = "contrib"
+;projects[defaultcontent][version] = "1.0-alpha4"
 
 
 
