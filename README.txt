@@ -22,6 +22,7 @@ Installation
 Copy ideograph_wysiwyg.make.example outside the profile directory and rename it to ideograph_wysiwyg.make
 
 This command will create a site root called "ideograph.wysiwyg" right beside your .make:
+
   $ drush make ideograph_wysiwyg.make ideograph.wysiwyg
 
 
@@ -30,8 +31,8 @@ This command will create a site root called "ideograph.wysiwyg" right beside you
 
 A. via the web interface by selecting the "Ideograph WYSIWYG" installation profile
 
-B. via drush's site install command:
-   drush site-install ideograph.wysiwyw \
+B. via drush's site install command, with something like:
+   drush site-install ideograph_wysiwyw \
    --site-name='WYSIWYG tests' \
    --db-url=mysql://dbuser:dbpassword@localhost/database_name \
    --db-su=dbuser --db-su-pw=dbpassword \
@@ -43,15 +44,10 @@ TO DO
 
 * Break out profile into a base profile for our core components, 
   and WYSIWYG-specific modules in another file.
-  
-* Push in-profile activation of contrib modules like views into Features instead.
 
 * Featurize configurations
-    - Create Feature to import some nodes via node_export:
+    - Create Feature to import default nodes via node_export:
       http://drupal.org/project/node_export
-    - News
-    - utility
-    - Roles/permissions
 
 
 MORE INFORMATION
