@@ -23,7 +23,7 @@ Copy ideograph_wysiwyg.make.example outside the profile directory and rename it 
 
 This command will create a site root called "ideograph.wysiwyg" right beside your .make:
 
-  $ drush make ideograph_wysiwyg.make ideograph.wysiwyg
+  $ drush make ideograph_wysiwyg.make ideograph.wysiwyg.tld
 
 
 2. Install Drupal
@@ -32,12 +32,15 @@ This command will create a site root called "ideograph.wysiwyg" right beside you
 A. via the web interface by selecting the "Ideograph WYSIWYG" installation profile
 
 B. via drush's site install command, with something like:
-   drush site-install ideograph_wysiwyw \
-   --site-name='WYSIWYG tests' \
-   --db-url=mysql://dbuser:dbpassword@localhost/database_name \
-   --db-su=dbuser --db-su-pw=dbpassword \
-   --account-name=root --account-pass=wysiwyg \
-   --site-mail=your_email@domain.com
+
+  $ cd ideograph.wysiwyg.tld
+
+  $ drush site-install ideograph_wysiwyw \
+    --site-name='WYSIWYG tests' \
+    --db-url=mysql://dbuser:dbpassword@localhost/database_name \
+    --db-su=dbuser --db-su-pw=dbpassword \
+    --account-name=root --account-pass=wysiwyg \
+    --site-mail=your_email@domain.com
 
 TO DO
 ======
@@ -52,4 +55,5 @@ TO DO
 
 MORE INFORMATION
 ================
+
 Drush make: http://drupal.org/project/drush_make
