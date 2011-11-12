@@ -185,6 +185,11 @@ projects[ideograph_wysiwyg_views][subdir] = "features"
 projects[ideograph_wysiwyg_views][download][type] = "git"
 projects[ideograph_wysiwyg_views][download][url] = "git://github.com/ideograph/ideograph_wysiwyg_views.git"
 
+projects[ideograph_wysiwyg_feature][type] = "module"
+projects[ideograph_wysiwyg_feature][subdir] = "features"
+projects[ideograph_wysiwyg_feature][download][type] = "git"
+projects[ideograph_wysiwyg_feature][download][url] = "git://github.com/ideograph/ideograph_wysiwyg_feature.git"
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
