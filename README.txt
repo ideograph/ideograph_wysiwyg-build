@@ -19,11 +19,11 @@ Installation
 
 .make files inside a profile will recurse and cannot contain the drupal project itself.
 
-Copy ideograph_wysiwyg.make.example outside the profile directory and rename it to ideograph_wysiwyg.make
+Copy ideograph_wysiwyw.make.example outside the profile directory and rename it to ideograph_wysiwyw.make
 
 This command will create a site root called "wysiwyg.tld" right beside your .make:
 
-  $ drush make ideograph_wysiwyg.make wysiwyg.tld
+  $ drush make ideograph_wysiwyw.make wysiwyg.tld
 
 
 2. Install Drupal
