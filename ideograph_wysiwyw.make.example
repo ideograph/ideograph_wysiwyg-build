@@ -12,7 +12,7 @@ core = 7.x
 api = 2
 
 projects[] = "drupal"
-; projects[drupal][version] = "7.8"
+; projects[drupal][version] = "7.12"
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -99,10 +99,10 @@ projects[libraries][subdir] = "contrib"
 ;projects[libraries][version] = "1.0"
 
 projects[ctools][subdir] = "contrib"
-;projects[ctools][version] = "1.x-dev"
+;projects[ctools][version] = "1.0-rc2"
 
 projects[views][subdir] = "contrib"
-;projects[ctools][version] = "3.0-rc1"
+;projects[ctools][version] = "3.3"
 
 
 ;;;;;;;;;;;;;;;
@@ -187,6 +187,10 @@ projects[ideograph_wysiwyg_feature][subdir] = "features"
 projects[ideograph_wysiwyg_feature][download][type] = "git"
 projects[ideograph_wysiwyg_feature][download][url] = "git://github.com/ideograph/ideograph_wysiwyg_feature.git"
 
+projects[ideograph_wysiwyg_content][type] = "module"
+projects[ideograph_wysiwyg_content][subdir] = "features"
+projects[ideograph_wysiwyg_content][download][type] = "git"
+projects[ideograph_wysiwyg_content][download][url] = "git://github.com/ideograph/ideograph_wysiwyg_content.git"
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

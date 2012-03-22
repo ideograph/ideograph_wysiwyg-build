@@ -57,7 +57,13 @@ dependencies[] = jquery_ui
 dependencies[] = libraries
 dependencies[] = ctools
 
+dependencies[] = defaultcontent
+dependencies[] = context
 
+
+
+
+; our Features will enable these
 ;dependencies[] = views
 ;dependencies[] = views_ui
 
@@ -72,6 +78,7 @@ dependencies[] = ideograph_wysiwyg_article
 dependencies[] = ideograph_wysiwyg_inserty_article
 dependencies[] = ideograph_wysiwyg_feature
 dependencies[] = ideograph_wysiwyg_views
+dependencies[] = ideograph_wysiwyg_content
 
 
 files[] = ideograph_wysiwyw.profile
