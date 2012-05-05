@@ -192,6 +192,11 @@ projects[ideograph_wysiwyg_content][subdir] = "features"
 projects[ideograph_wysiwyg_content][download][type] = "git"
 projects[ideograph_wysiwyg_content][download][url] = "git://github.com/ideograph/ideograph_wysiwyg_content.git"
 
+projects[ideograph_wysiwyg_config][type] = "module"
+projects[ideograph_wysiwyg_config][subdir] = "features"
+projects[ideograph_wysiwyg_config][download][type] = "git"
+projects[ideograph_wysiwyg_config][download][url] = "git://github.com/ideograph/ideograph_wysiwyg_config.git"
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Themes                                                        ;

@@ -74,6 +74,7 @@ dependencies[] = ideograph_wysiwyg
 
 ; Features
 dependencies[] = ideograph_util
+dependencies[] = ideograph_wysiwyg_config
 dependencies[] = ideograph_wysiwyg_article
 dependencies[] = ideograph_wysiwyg_inserty_article
 dependencies[] = ideograph_wysiwyg_feature
