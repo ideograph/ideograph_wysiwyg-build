@@ -3,7 +3,7 @@
 ; USAGE:
 ; =========
 ; .make files inside a profile will recurse and cannot contain the drupal project itself
-; Copy ideograph_wysiwyg.make.txt outside the profile directory and rename it to ideograph_wysiwyg.make
+; Copy ideograph_wysiwyg.make.example outside the profile directory and rename it to ideograph_wysiwyg.make
 ; This command will create a site root called "ideograph.wysiwyg" right beside your .make:
 ; $ drush make ideograph_wysiwyg.make ideograph.wysiwyg
 
